@@ -39,9 +39,9 @@ function backToTop() {
 function sendEmail() {
     Email.send({
     Host : "smtp.gmail.com",
-    Username : "clararasslan@gmail.com",
+    Username : "ik.appiagyei@gmail.com",
     Password : "tiremamo7",
-    To : 'clararasslan@gmail.com',
+    To : 'ik.appiagyei@gmail.com',
     From : document.getElementById("email").value,
     Subject : "New Contact Form Enquiry",
     Body : "Name: " + document.getElementById("name").value
